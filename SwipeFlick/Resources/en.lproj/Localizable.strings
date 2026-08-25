@@ -1,0 +1,162 @@
+//MARK: - Common
+"next" = "Next";
+"skip" = "Skip";
+"getStarted" = "Get Started";
+"error" = "Error";
+"success" = "Success";
+"ok" = "OK";
+"emptyFields" = "Please fill in all fields.";
+"invalid_url" = "Invalid URL";
+"invalid_response" = "Invalid response from server";
+"no_data" = "No data received";
+"http_error" = "HTTP Error";
+"try_again" = "Try Again";
+
+//MARK: - Profile/Settings
+"savedMovies" = "Saved Movies";
+"likedMovies" = "Liked Movies";
+"viewAll" = "View All";
+"likedStat" = "Liked";
+"unlikedStat" = "Unliked";
+"aiPicksStat" = "AI Picks";
+"aiRecommendations" = "AI Recommendations";
+"new" = "New";
+"emptySavedMovies" = "No liked movies yet.";
+"noAIPicks" = "No AI picks yet.";
+"settings" = "Settings";
+"accountSettings" = "Account Settings";
+"aiPreferences" = "AI Preferences";
+"myLists" = "My Lists";
+"support" = "Support";
+"termsOfUse" = "Terms of Use";
+"privacyPolicy" = "Privacy Policy";
+"deleteAccount" = "Delete Account";
+"deleteAccountTitle" = "Delete Account";
+"deleteAccountMessage" = "This action cannot be undone.";
+"accountDeleted" = "Account Deleted";
+"accountDeletedMessage" = "Your account has been successfully deleted.";
+"delete" = "Delete";
+"cancel" = "Cancel";
+"soon" = "Soon";
+"aiPreferencesSoon" = "AI preferences are coming soon.";
+"listsSoon" = "Lists are coming soon.";
+
+//MARK: - AI Preferences
+"aiPreferencesTitle" = "Tell us about your taste";
+"aiPreferencesSubtitle" = "Optionally describe genres, moods, directors or examples you like or dislike. We’ll use this to refine AI picks.";
+"aiPreferencesPlaceholder" = "e.g. Love slow-burn sci‑fi like Arrival, hate jumpscare horror. Prefer strong soundtracks and character-driven stories.";
+"aiPreferencesSaved" = "Your preferences are saved.";
+"save" = "Save";
+"mustBeSignedIn" = "You must be signed in.";
+
+
+//MARK: - Tab Bar
+"home" = "Home";
+"discover" = "Discover";
+"random" = "Random";
+"profile" = "Profile";
+
+
+//MARK: - Authentication
+"authenticationTitle" = "Go ahead and set up\nyour account";
+"authenticationSubtitle" = "Sign in-up to enjoy the movie";
+"login" = "Login";
+"signup" = "Sign Up";
+"register" = "Register";
+"logout" = "Logout";
+"name" = "Name";
+"surname" = "Surname";
+"email" = "Email Address";
+"password" = "Password";
+"confirmPassword" = "Confirm Password";
+"forgotPassword" = "Forgot Password?";
+"resetPasswordTitle" = "Reset your password";
+"resetPasswordSubtitle" = "Enter your email and we’ll send you a reset link.";
+"sendResetLink" = "Send Reset Link";
+"passwordResetEmailSent" = "If an account exists for that email, a reset link has been sent.";
+"passwordMismatch" = "Passwords do not match.";
+"loginSuccess" = "Signed in successfully.";
+"registerSuccess" = "Account created successfully.";
+"loginSubtitle" = "Welcome back to SwipeFlick";
+"signupSubtitle" = "Create your SwipeFlick account";
+
+//MARK: - Auth Errors
+"authErrorInvalidEmail" = "The email address is badly formatted.";
+"authErrorInvalidCredentials" = "Email or password is incorrect.";
+"authErrorNetwork" = "Network error. Check your connection and try again.";
+"authErrorEmailAlreadyInUse" = "This email is already in use.";
+"authErrorWeakPassword" = "Password is too weak. Use a stronger password.";
+"authErrorUnknown" = "An unexpected error occurred. Please try again.";
+"errorNoAuthenticatedUser" = "No authenticated user.";
+
+
+//MARK: - Home Page
+"haventwatched" = "Haven't Watched";
+"startAgain" = "Start Again";
+"homeLoadingLabel" = "Grab your popcorn! AI is finding your next favorite!";
+"firstCardTitle" = "Swipe to Find Your Taste";
+"secondCardTitle" = "AI Suggestion Just for You";
+
+
+//MARK: - Discover Page
+"discoverTitle" = "Discover";
+"discoverSubtitle" = "Find movies that match your vibe";
+"discoverChooseGenre" = "Choose a genre";
+"all" = "All";
+
+//MARK: - Random Page
+"moodHappy" = "Happy";
+"moodSad" = "Sad";
+"moodExcited" = "Excited";
+"moodChill" = "Chill";
+"moodRomantic" = "Romantic";
+"moodThoughtful" = "Thoughtful";
+"randomTitle" = "Random Pick";
+"randomSubtitle" = "Let fate decide your next watch";
+"moodLabel" = "Choose a genre to get started";
+"randomLoadingLabel" = "Finding the perfect movie...";
+"tryAgain" = "Try Again";
+"chooseAnother" = "Choose Another";
+
+
+//MARK: - Profile Page
+"profileWelcome" = "Welcome back";
+"profileGuest" = "You are exploring as a guest";
+"profileGuestDetail" = "Create an account to sync your SwipeFlick journey.";
+"profileSignedInDetail" = "Everything you do is synced across your devices.";
+"profileGuestCTA" = "Sign in or create an account to save favorites and follow creators.";
+"profileBioDefault" = "Movie enthusiast";
+
+
+//MARK: - Movie Detail
+"viewDetail" = "View Detail";
+"viewPoster" = "View Poster";
+"goToIMDB" = "Go to IMDb";
+"imdbError" = "IMDb URL is not available.";
+"imdb" = "IMDb";
+
+//MARK: - Onboarding Page
+"onboardingTitle1" = "Swipe. Decide. Discover.";
+"onboardingSubtitle1" = "Swipe right if you like it, left if you don’t.
+Our AI learns your taste and finds movies you’ll actually enjoy.";
+"onboardingTitle2" = "Let Your Mood Pick the Movie";
+"onboardingSubtitle2" = "Feeling chill, thoughtful, sad or romantic?
+Choose your vibe, and we’ll find the perfect movie for the moment.";
+"onboardingTitle3" = "Know Before You Watch";
+"onboardingSubtitle3" = "Get everything in one place —
+trailers, ratings, and summaries for every movie you explore.";
+
+
+//MARK: - Splash Screen
+"splashMessageCurating" = "Curating tonight's blockbusters just for you.";
+"splashMessagePopcorn" = "Warming up the popcorn for premiere night vibes.";
+"splashMessageHiddenGems" = "Hunting hidden gems to surprise your watchlist.";
+"splashMessageCinephile" = "Setting the stage for your next cinephile binge.";
+"splashMessageRewind" = "Rewinding through fan favorites you might have missed.";
+"splashMessageScenes" = "Cueing up unforgettable scenes to kick things off.";
+
+
+//MARK: - Gemini
+"geminiErrorEmptyResponse" = "Gemini did not return any suggestion. Please try again.";
+"geminiErrorAmbiguousResponse" = "Gemini returned an unexpected response. Please try again.";
+"geminiErrorDislikedConflict" = "Gemini suggested a movie you disliked: %@.";

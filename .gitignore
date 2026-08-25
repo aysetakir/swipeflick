@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Xcode generated
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.hmap
+
+# App packaging / symbols
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+# Package.resolved  # Genelde commit edilir; commit etmek istiyorsan bu satırı silme.
+
+# CocoaPods
+# Pods/             # CI kullanıyorsan aç, aksi halde commit etmeyi tercih edebilirsin.
+# *.xcworkspace     # Pod'lar workspace üretir; Pods'u commit etmiyorsan workspace'i de ignore etmek mantıklı.
+
+# Carthage
+Carthage/Build/
+# Carthage/Checkouts
+
+# Fastlane artifacts
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Optional editor configs
+# .idea/
+# .vscode/
+
+
+# Secrets / local config
+SwipeFlick/GoogleService-Info.plist
+*.xcconfig.local
+.env
